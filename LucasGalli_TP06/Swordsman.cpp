@@ -11,7 +11,7 @@ namespace Swordsman
 	}
 	void Swordsman::Attack(Soldier* target)
 	{
-
+		cout << "Soldado" << hp << "Ataco a " << target->hp;
 	}
 	void Swordsman::Rest()
 	{

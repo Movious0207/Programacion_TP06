@@ -5,7 +5,7 @@ namespace MeeleSoldier
 {
 	class MeeleSoldier : public Soldier::Soldier
 	{ 
-	private:
+	protected:
 		int attackRadius;
 	public:
 		MeeleSoldier(int hp, int stamina, int attackRadius);
